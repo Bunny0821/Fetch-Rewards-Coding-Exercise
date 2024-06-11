@@ -2,10 +2,10 @@
 
 **Please read this section before executing the code or reading the project files.**
 
-This project is designed to complete the Fetch Rewards Coding Exercise - Analytics Engineer task and requirements. The code implementation is done using Jupyter Notebook and Google BigQuery. The project consists of four parts:
+This project is designed to complete the Fetch Rewards Coding Exercise - Analytics Engineer task and requirements. All pipeline is included in the `Fetech_Jesper.ipynb`. The code implementation is done using Jupyter Notebook and Google BigQuery. The project consists of four parts:
 
 ## **Part 1: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model**
-In this section, I extracted the nested structure (`rewardsReceiptItemList`) from the Receipts Data Schema and created it as a fourth schema. This approach results in a more efficient database model design with higher query performance, avoiding performance bottlenecks. This is beneficial for environments with increasing data volumes as described in the problem context. The data model design diagram is included in the `Fetech_Jesper.ipynb` and can also be directly viewed in `Blank diagram (1).png`.
+In this section, I extracted the nested structure (`rewardsReceiptItemList`) from the Receipts Data Schema and created it as a fourth schema. This approach results in a more efficient database model design with higher query performance, avoiding performance bottlenecks. This is beneficial for environments with increasing data volumes as described in the problem context. The data model design diagram and all pipeline are included in the `Fetech_Jesper.ipynb` and can also be directly viewed in `Blank diagram (1).png`.
 
 ## **Part 2: Write Queries that Directly Answer Predetermined Questions from a Business Stakeholder**
 This section uses PostgreSQL dialect and has been tested in the BigQuery environment. The two questions I addressed are:
